@@ -2,7 +2,7 @@ var playlist = {Black keys: 'Hi/lo', Nirvana: 'Come as you are', RHCP: 'Look aro
 
 function updatePlaylist(obj, key, value ) {
 
-Object.assign({}, {[key]: value})
+Object.assign({obj}, {[key]: value})
 
 return obj
 }
