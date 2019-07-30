@@ -1,1 +1,1 @@
-playlist = {RHCP: 'look around'}
+const playlist = {RHCP: 'look around'}
